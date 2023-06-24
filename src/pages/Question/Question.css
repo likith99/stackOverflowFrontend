@@ -1,0 +1,117 @@
+.question-details-container{
+    width: calc(100% - 300px - 24px);
+    margin:25px 0;
+    padding:0;
+    float:left;
+}
+.question-details-container2{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.112);
+    /* justify-content: space-between; */
+    
+}
+.question-votes{
+    
+    display: flex;
+    flex-direction: column;
+    padding:0 15px 0 0
+    
+
+}
+.question-votes svg{
+    height: 40px;
+    width: 40px;
+    color:rgb(206,203,203);
+    cursor:pointer;
+}
+.votes-icon:active{
+    color:#ef8236
+}
+.question-votes p{
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.question-tags span{
+    margin: 5px;
+    padding: 2px 3px;
+    background-color: #e1ecf4;
+    color: #39739d;
+    font-size: 13px;
+}
+
+.question-action-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    padding:10px 5px 15px 0;
+    
+}
+.user-link{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.question-action-user a >div{
+    margin-right: 10px;
+}
+
+.question-action-user div:nth-child(2) p,.user-link {
+    margin:0;
+    font-size: 14px;
+}
+.question-action-user button{
+    background: none;
+    border:none;
+    font-size: 13px;
+    color:#939292;
+    transition: 0.3s;
+    margin-right: 5px;
+    padding:5px 0px;
+    border:solid 2px white ;
+}
+.question-action-user button:active{
+        border-bottom: solid 2px black;
+}
+.display-ans{
+    padding:20px;
+    border-bottom:solid 1px rgba(0,0,0,0.112)
+}
+.display-ans p{
+    margin:0;
+    font-size: 14px;
+    line-height: 18px;
+    white-space: pre-line;
+}
+
+
+.post-ans-container form{
+    padding: 0;
+}
+
+.post-ans-container form textarea{
+        display: flex;
+        width: calc(100% - 20px);
+        resize: vertical;
+        padding:10px;
+        border: solid 1px rgba(0,0,0,0.3);
+}
+.post-ans-btn{
+    margin:20px 0 1px 0;
+    padding:10px 10px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color:white;
+    transition: 0.5s all;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.post-ans-btn:hover{
+    background-color: #0086d8;
+}
+
+
+

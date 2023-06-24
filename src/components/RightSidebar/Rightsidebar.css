@@ -1,0 +1,65 @@
+.right-sidebar{
+    
+    width: 300px;
+    float:right;
+    margin:40px 0px 15px 24px;
+    font-size: 13px;
+}
+.widget{
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px rgb(0 0 0/ 5%),
+    -3px -3px 10px rgb(0 0 0/ 5%);
+    /* padding:15px; */
+}
+.widget h4{
+    padding:15px;
+    background-color: #fbf3d5;
+    margin: 0 0;
+    border:solid 1px #f1e5bc;
+}
+.right-sidebar-div1{
+    background-color: #fdf7e2;
+    padding: 15px;
+    border:solid 1px #f1e5bc
+}
+.right-sidebar-div2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.right-sidebar-div2 p{
+    padding-left: 10px;
+    margin-top: 0%;
+}
+
+/* for watched tags */
+
+.widget-tags{
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px rgb(0 0 0/ 5%),
+    -3px -3px 10px rgb(0 0 0/ 5%);
+    border-radius: 2px;
+    
+
+}
+.widget-tags h4{
+    background-color: #f8f8f9;
+    padding:15px;
+    border: solid 1px #e3e6e8;
+    margin: 0;
+}
+.widget-tags-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:10px;
+    border: solid 1px #e3e6e8;
+}
+.widget-tags-div p{
+    margin:5px;
+    padding: 2px;
+    background-color: #e1ecf4;
+    color:#39739d;
+    font-size: 13px;
+
+}
